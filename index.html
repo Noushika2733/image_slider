@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Slider</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        color: white;
+        margin: 0;
+        padding: 0;
+        font-family: "Poppins", sans-serif;
+      }
+      body {
+        background-color: rgb(0, 158, 150);
+        user-select: none;
+      }
+      .tab {
+        font-size: x-large;
+        background-color: rgb(245, 206, 206);
+        padding: 7px 15px;
+        margin: 10px;
+        text-decoration: none;
+        color: black;
+        font-weight: 600;
+        border-radius: 5px;
+        box-shadow: 5px 5px 5px gray;
+        
+      }
+      .tab:hover {
+        scale: 1.05;
+        box-shadow: 5px 5px 15px rgb(88, 77, 77);
+      }
+      .tab:active {
+        scale: 1;
+      }
+      .image {
+        max-height: 70vh;
+        max-width: 95vw;
+        border-radius: 5px;
+      }
+      .image1 {
+        
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      span {
+        text-decoration: underline;
+        text-underline-offset: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 style="text-align: center; margin-top: 20px; margin-bottom: 20px">
+      <span style="text-decoration: none; font-size: 35px; color: red">I</span>mage
+      <span><span style="text-underline-offset: 10px"> Slider</span></span>
+    </h1>
+    <div
+      style="
+       min-height: 70px;
+        text-align: center;
+        position: sticky;
+        top: 0;
+        background-color: rgb(0, 158, 150);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+
+      "
+    >
+      <a class="tab" href="#img1">Tab 1</a>
+      <a class="tab" href="#img2">Tab 2</a>
+      <a class="tab" href="#img3">Tab 3</a>
+      <a class="tab" href="#img4">Tab 4</a>
+      <a class="tab" href="#img5">Tab 5</a>
+    </div>
+    <div style="text-align: center">
+      <div class="image1" id="img1">
+        <img src="pexels-felix-mittermeier-956999.jpg" alt="" class="image" /><br />
+        <h2>Image 1</h2>
+      </div>
+      <div class="image1" id="img2">
+        <img src="pexels-pixabay-268533.jpg" alt="" class="image" /><br />
+        <h2>Image 2</h2>
+      </div>
+      <div class="image1" id="img3">
+        <img src="pexels-quintin-gellar-313782.jpg" alt="" class="image" /><br />
+        <h2>Image 3</h2>
+      </div>
+      <div class="image1" id="img4">
+        <img src="pexels-sebastiaan-stam-1097456.jpg" alt="" class="image" /><br />
+        <h2>Image 4</h2>
+      </div>
+      <div class="image1" id="img5">
+        <img src="pexels-toni-cuenca-585752.jpg" alt="" class="image" /><br />
+        <h2>Image 5</h2>
+      </div>
+    </div>
+  </body>
+</html>
+       
+     
+
+
+
+
+    
+    
+</body>
+</html>
